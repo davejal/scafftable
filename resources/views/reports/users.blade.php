@@ -1,5 +1,4 @@
-@extends('layouts.app')
-
+@extends('layouts.master')
 @section('content')
     <table class="table table-bordered" id="users-table">
         <thead>
