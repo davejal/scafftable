@@ -1,6 +1,11 @@
 @extends('scaffold-interface.layouts.app')
 @section('content')
-    <table class="table table-bordered" id="users-table">
+ <section class="content">
+<div class="box box-primary">
+<div class="box-header">
+	<h3>User reports</h3>
+</div>
+   <table class="table table-bordered" id="users-table">
         <thead>
             <tr>
                 <th>Id</th>
